@@ -32,7 +32,6 @@ pair<int,int> trv(auto v, auto& grid, auto& vis) {
 }
 
 void part1() {
-    int ans = 0;
     string s; getline(cin, s);
     vector<string> grid;
     grid.push_back(string(s.length()+2, '.'));
